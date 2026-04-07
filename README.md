@@ -1,6 +1,35 @@
-# **CoCo-Ex**
+# **COCO-EX: A Tool for Linking Concepts from Texts to ConceptNet**
 
-CoCo-Ex is a tool for extracting concepts from texts and linking them to the ConceptNet knowledge graph, developed by Maria Becker, Katharina Korfhage and Anette Frank from the NLP Lab at Heidelberg University.  
+**Maria Becker, Katharina Korfhage, Anette Frank**  
+
+[![Paper](https://img.shields.io/badge/Paper-EACL%202021-blue)](https://aclanthology.org/2021.eacl-demos.15/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![Python](https://img.shields.io/badge/Python-3.6%2F3.7-blue)]()  
+
+---
+
+## 📄 Paper
+
+**COCO-EX: A Tool for Linking Concepts from Texts to ConceptNet**  
+Proceedings of the **EACL 2021 System Demonstrations**
+
+👉 https://aclanthology.org/2021.eacl-demos.15/  
+
+---
+
+## 📚 Citation
+
+If you use **CoCo-Ex** in your research, please cite:
+
+```bibtex
+@inproceedings{becker-etal-2021-cocoex,
+  title     = {COCO-EX: A Tool for Linking Concepts from Texts to ConceptNet},
+  author    = {Becker, Maria and Korfhage, Katharina and Frank, Anette},
+  booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations},
+  year      = {2021},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2021.eacl-demos.15/}
+}
 
 ---
 
@@ -48,12 +77,3 @@ CoCo-Ex is written in Python and requires the following software components:
 - stanford parser 3.9.2  
 
 ---
-
-## 🚀 Usage
-
-### 1. Entity Extraction
-
-Run the following command:
-
-```bash
-python CoCo-Ex_entity_extraction.py "path/to/inputfile.csv" "path/to/outputfile.tsv"
