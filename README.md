@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-EACL%202021-blue)](https://aclanthology.org/2021.eacl-demos.15/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Python](https://img.shields.io/badge/Python-3.6%2F3.7-blue)]()  
+![Python](https://img.shields.io/badge/Python-3.6%2F3.7-blue)  
 
 ---
 
@@ -30,11 +30,13 @@ If you use **CoCo-Ex** in your research, please cite:
   publisher = {Association for Computational Linguistics},
   url       = {https://aclanthology.org/2021.eacl-demos.15/}
 }
-
+```
 
 ---
 
 ## 📄 Overview
+
+CoCo-Ex is a tool for extracting concepts from texts and linking them to the ConceptNet knowledge graph, developed by Maria Becker, Katharina Korfhage and Anette Frank from the NLP Lab at Heidelberg University.  
 
 CoCo-Ex extracts meaningful concepts from natural language texts and maps them to conjunct concept nodes in ConceptNet, utilizing the maximum of relational information stored in the ConceptNet knowledge graph.  
 
@@ -76,5 +78,3 @@ CoCo-Ex is written in Python and requires the following software components:
 - gensim 3.8.3  
 - pandas 1.2  
 - stanford parser 3.9.2  
-
----
